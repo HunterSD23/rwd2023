@@ -5,7 +5,7 @@ File Name: styles07.css
 */
 
 /* CSS Reset */
-body, header, main, footer, h1, h3, section, article {
+body, header, main, footer, h1, h3, section, article, aside {
     margin: 0;
     padding: 0;
     border: 0;
@@ -29,6 +29,19 @@ header {
 /* Style rules for main content  */
 main {
 	background-color: #fff;
+}
+
+article {
+	column-count: 3;
+	column-rule-style: solid;
+	column-rule-color: #628c45;
+	padding-top: 1%;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+section {
+	padding: 2%;
 }
 
 aside {
