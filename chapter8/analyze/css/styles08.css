@@ -1,7 +1,7 @@
 /*
-Author:
-Date:
-File Name: 
+Author: Hunter Dettmer
+Date: 01/10/2024
+File Name: styles08.css
 */
 
 /* Style for body specifies a background color */
@@ -16,8 +16,28 @@ body {
 	margin: 0 auto;
 }
 
-/* Style rules for form elements */
+/* Style rule for fieldset and input elements */
+fieldset, input {
+	margin-bottom: 2%;
+}
 
+/* Style rules for fieldset legend selectors */
+fieldset legend {
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
+/* Style rules for button class */
+.btn {
+	border: none;
+	margin: 0 auto;
+	display: block;
+	padding: 5%;
+	background-color: #003399;
+	font-size: 1.25em;
+	border-radius: 10px;
+	color: #fff;
+}
 
 /* Style for the footer element */
 footer {
@@ -27,6 +47,22 @@ footer {
 
 /* Media query for tablet layout */ 
 @media only screen and (min-width: 600px) {
-
-    
+	/* Style rules for form elements */
+	form {
+		width: 80%;
+		margin: 0 auto;
+	}
+	
+	/* Style rules for grid class */
+	.grid {
+		display: grid;
+		grid-template-columns: auto auto;
+		grid-gap: 20px
+	}
+	
+	/* Style rule for button class */
+	.btn {
+		grid-column: 1/ span 2;
+		padding: 3%;
+	}
 }

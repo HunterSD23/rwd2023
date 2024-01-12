@@ -1,2 +1,70 @@
-/* CSS Document */
+/* 
+Author: 
+Date: 01/10/2024
+File Name: styles08.css
+*/
 
+/* CSS Reset */
+body, main, footer, table {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rule for body element */
+body {
+	background-color: #ffe5dc;
+}
+
+/* Style rule for table element */
+table {
+	width: 55%;
+	margin: 0 auto;
+	border: 4px solid #fd4d0c;
+	box-shadow: 13px 13px 13px #792101;
+}
+
+/* Style rules for table, tr, th, td selectors */
+table, tr, th, td {
+	border-collapse: collapse;
+	padding: 2%;
+}
+
+/* Style rules for caption element */
+caption {
+	font-size: 1.75em;
+	padding: 2%;
+	margin-top: 2%;
+	font-family: sans-serif;
+	color: #a13000;
+	font-weight: bold;
+}
+
+/* Style rules for th and td selectors */
+th, td {
+	border: 1px solid #a22c02;
+	font-family: sans-serif;
+}
+
+/* Style rules for thead element */
+thead th {
+	background-color: #48371c;
+	color: #fff;
+}
+
+/* Style rule for tbody element */
+tbody tr:nth-child(odd) {
+	background-color: #fe9772;
+}
+
+/* Style rules for the container */
+#container {
+	width: 98%;
+	margin: 0 auto;
+}
+
+/* Style rules for footer element */
+footer {
+	font-size: 0.75em;
+	text-align: center;
+}
